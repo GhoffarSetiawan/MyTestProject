@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Dashboard\u0027])[1]/preceding::span[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_- Invelli Microfinance System/span_Root_neighbor.png"
+      "pathToScreenshot": "Reports/20220819_090838/TS_Login_Success_ByTDLogin/20220819_090838/Object Repository/Page_- Invelli Microfinance System/span_Root_neighbor.png"
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Dashboard\u0027])[1]/preceding::a[3]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_- Invelli Microfinance System/a_Log Out_neighbor.png"
+      "pathToScreenshot": "Reports/20220819_090838/TS_Login_Success_ByTDLogin/20220819_090838/Object Repository/Page_- Invelli Microfinance System/a_Log Out_neighbor.png"
     }
   ]
 }

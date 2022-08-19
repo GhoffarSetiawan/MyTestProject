@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login_Success_ByTDLogin,Chrome 104.0.5112.81,Tes Login pakai data login excel,,2022-08-19 09:17:51,2022-08-19 09:20:54,3m - 3.012s,PASSED
+,,,,,,,
+Test Cases/TC_Login_Success,Chrome 104.0.5112.81,Login Sukses,,2022-08-19 09:17:51,2022-08-19 09:18:33,42.268s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-19 09:17:52,2022-08-19 09:17:56,4.370s,PASSED
+"navigateToUrl(""http://demokoperasi.invelli.com/general/adminlogin/"")",Chrome 104.0.5112.81,,,2022-08-19 09:17:56,2022-08-19 09:17:57,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_username""), username)",Chrome 104.0.5112.81,,,2022-08-19 09:17:57,2022-08-19 09:17:58,0.926s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_password""), password)",Chrome 104.0.5112.81,,,2022-08-19 09:17:58,2022-08-19 09:17:58,0.712s,PASSED
+"click(findTestObject(""Object Repository/Page_/button_Login""))",Chrome 104.0.5112.81,,,2022-08-19 09:17:58,2022-08-19 09:18:00,1.749s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-19 09:18:00,2022-08-19 09:18:00,0.181s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_- Invelli Microfinance System/span_Root""))",Chrome 104.0.5112.81,,,2022-08-19 09:18:00,2022-08-19 09:18:32,31.729s,PASSED
+"click(findTestObject(""Object Repository/Page_- Invelli Microfinance System/a_Log Out""))",Chrome 104.0.5112.81,,,2022-08-19 09:18:32,2022-08-19 09:18:33,0.633s,PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-19 09:18:33,2022-08-19 09:18:33,0.780s,PASSED
+,,,,,,,
+Test Cases/TC_Login_Success,Chrome 104.0.5112.81,Login Sukses,,2022-08-19 09:18:34,2022-08-19 09:19:44,1m - 10.308s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-19 09:18:34,2022-08-19 09:18:35,1.585s,PASSED
+"navigateToUrl(""http://demokoperasi.invelli.com/general/adminlogin/"")",Chrome 104.0.5112.81,,,2022-08-19 09:18:35,2022-08-19 09:18:36,0.907s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_username""), username)",Chrome 104.0.5112.81,,,2022-08-19 09:18:36,2022-08-19 09:18:37,0.853s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_password""), password)",Chrome 104.0.5112.81,,,2022-08-19 09:18:37,2022-08-19 09:18:38,0.680s,PASSED
+"click(findTestObject(""Object Repository/Page_/button_Login""))",Chrome 104.0.5112.81,,,2022-08-19 09:18:38,2022-08-19 09:18:39,1.902s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-19 09:18:39,2022-08-19 09:18:40,0.167s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_- Invelli Microfinance System/span_Root""))",Chrome 104.0.5112.81,,,2022-08-19 09:18:40,2022-08-19 09:19:11,31.625s,PASSED
+"click(findTestObject(""Object Repository/Page_- Invelli Microfinance System/a_Log Out""))",Chrome 104.0.5112.81,,,2022-08-19 09:19:11,2022-08-19 09:19:43,31.814s,PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-19 09:19:43,2022-08-19 09:19:44,0.761s,PASSED
+,,,,,,,
+Test Cases/TC_Login_Success,Chrome 104.0.5112.81,Login Sukses,,2022-08-19 09:19:44,2022-08-19 09:20:54,1m - 9.919s,PASSED
+"openBrowser("""")",Chrome 104.0.5112.81,,,2022-08-19 09:19:44,2022-08-19 09:19:45,1.479s,PASSED
+"navigateToUrl(""http://demokoperasi.invelli.com/general/adminlogin/"")",Chrome 104.0.5112.81,,,2022-08-19 09:19:45,2022-08-19 09:19:46,0.711s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_username""), username)",Chrome 104.0.5112.81,,,2022-08-19 09:19:46,2022-08-19 09:19:47,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Page_/input_Sign In_password""), password)",Chrome 104.0.5112.81,,,2022-08-19 09:19:47,2022-08-19 09:19:48,0.684s,PASSED
+"click(findTestObject(""Object Repository/Page_/button_Login""))",Chrome 104.0.5112.81,,,2022-08-19 09:19:48,2022-08-19 09:19:49,1.800s,PASSED
+maximizeWindow(),Chrome 104.0.5112.81,,,2022-08-19 09:19:49,2022-08-19 09:19:50,0.142s,PASSED
+"mouseOver(findTestObject(""Object Repository/Page_- Invelli Microfinance System/span_Root""))",Chrome 104.0.5112.81,,,2022-08-19 09:19:50,2022-08-19 09:20:21,31.790s,PASSED
+"click(findTestObject(""Object Repository/Page_- Invelli Microfinance System/a_Log Out""))",Chrome 104.0.5112.81,,,2022-08-19 09:20:21,2022-08-19 09:20:53,31.703s,PASSED
+closeBrowser(),Chrome 104.0.5112.81,,,2022-08-19 09:20:53,2022-08-19 09:20:54,0.726s,PASSED

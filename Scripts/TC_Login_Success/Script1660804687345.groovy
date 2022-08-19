@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://koperasidev.invelli.com/general/adminlogin/')
+WebUI.navigateToUrl('http://demokoperasi.invelli.com/general/adminlogin/')
 
-WebUI.setText(findTestObject('Object Repository/Page_/input_Sign In_username'), 'root@kne.co.id')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Sign In_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input_Sign In_password'), '0Ejwh1E8Psy+8g+YVrCOBA==')
+WebUI.setText(findTestObject('Object Repository/Page_/input_Sign In_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_/button_Login'))
 
