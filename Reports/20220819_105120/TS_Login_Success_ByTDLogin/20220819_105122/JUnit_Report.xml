@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_Success_ByTDLogin" time="185.145" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Login_Success_ByTDLogin" tests="3" failures="0" errors="0" time="185.145" skipped="0" timestamp="2022-08-19 10:51:26" hostname="LAPTOP-CHBR9BIB$ - host.docker.internal" id="Test Suites/TS_Login_Success_ByTDLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\invel\\git\\MyTestProject\\Reports\\20220819_105120\\TS_Login_Success_ByTDLogin\\20220819_105122"/>
+         <property name="logFiles" value="C:\\Users\\invel\\git\\MyTestProject\\Reports\\20220819_105120\\TS_Login_Success_ByTDLogin\\20220819_105122\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAPTOP-CHBR9BIB$ - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.81"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="070b3b7b09a8e49fa51816aeb28f04a7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login_Success" time="44.98" classname="Test Cases/TC_Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-08-19 10:51:26 - [TEST_CASE][PASSED] - Test Cases/TC_Login_Success: Test Cases/TC_Login_Success
+
+2022-08-19 10:51:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-19 10:51:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-19 10:51:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-19 10:51:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-19 10:51:32 - [TEST_STEP][PASSED] - navigateToUrl("http://demokoperasi.invelli.com/general/adminlogin/"): Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:51:34 - [MESSAGE][PASSED] - Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:51:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_username"), username): Text 'admin@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:51:35 - [MESSAGE][PASSED] - Text 'admin@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:51:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_password"), password): Text '@dminOK2021' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:51:36 - [MESSAGE][PASSED] - Text '@dminOK2021' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/button_Login")): Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:51:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-19 10:51:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-19 10:51:38 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_- Invelli Microfinance System/span_Root")): Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:52:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pendaftaran User - Butuh Otorisasi'])[7]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-19 10:52:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_- Invelli Microfinance System/span_Root'. Try using Self-healing.
+
+2022-08-19 10:52:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_- Invelli Microfinance System/span_Root' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[2]'.
+
+2022-08-19 10:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_- Invelli Microfinance System/a_Log Out")): Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:52:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-19 10:52:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_Success" time="69.833" classname="Test Cases/TC_Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-08-19 10:52:11 - [TEST_CASE][PASSED] - Test Cases/TC_Login_Success: Test Cases/TC_Login_Success
+
+2022-08-19 10:52:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-19 10:52:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-19 10:52:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-19 10:52:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-19 10:52:13 - [TEST_STEP][PASSED] - navigateToUrl("http://demokoperasi.invelli.com/general/adminlogin/"): Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:52:14 - [MESSAGE][PASSED] - Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_username"), username): Text 'iqbal@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:52:14 - [MESSAGE][PASSED] - Text 'iqbal@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:52:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_password"), password): Text 'iqbal' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:52:15 - [MESSAGE][PASSED] - Text 'iqbal' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/button_Login")): Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:52:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-19 10:52:17 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-19 10:52:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_- Invelli Microfinance System/span_Root")): Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:52:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pendaftaran User - Butuh Otorisasi'])[7]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-19 10:52:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_- Invelli Microfinance System/span_Root'. Try using Self-healing.
+
+2022-08-19 10:52:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_- Invelli Microfinance System/span_Root' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[2]'.
+
+2022-08-19 10:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_- Invelli Microfinance System/a_Log Out")): Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:53:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Root'])[1]/following::a[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-19 10:53:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_- Invelli Microfinance System/a_Log Out'. Try using Self-healing.
+
+2022-08-19 10:53:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::a[3]'.
+
+2022-08-19 10:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:53:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-19 10:53:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_Success" time="69.58" classname="Test Cases/TC_Login_Success" status="PASSED">
+         <system-out><![CDATA[2022-08-19 10:53:21 - [TEST_CASE][PASSED] - Test Cases/TC_Login_Success: Test Cases/TC_Login_Success
+
+2022-08-19 10:53:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-19 10:53:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-19 10:53:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-19 10:53:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-19 10:53:23 - [TEST_STEP][PASSED] - navigateToUrl("http://demokoperasi.invelli.com/general/adminlogin/"): Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:53:23 - [MESSAGE][PASSED] - Navigate to 'http://demokoperasi.invelli.com/general/adminlogin/' successfully
+
+2022-08-19 10:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_username"), username): Text 'teller1@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:53:24 - [MESSAGE][PASSED] - Text 'teller1@makmurbersama.co.id' is set on object 'Object Repository/Page_/input_Sign In_username'
+
+2022-08-19 10:53:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input_Sign In_password"), password): Text 'teller1' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:53:25 - [MESSAGE][PASSED] - Text 'teller1' is set on object 'Object Repository/Page_/input_Sign In_password'
+
+2022-08-19 10:53:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/button_Login")): Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2022-08-19 10:53:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-19 10:53:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-19 10:53:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_- Invelli Microfinance System/span_Root")): Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:53:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pendaftaran User - Butuh Otorisasi'])[7]/following::span[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-19 10:53:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_- Invelli Microfinance System/span_Root'. Try using Self-healing.
+
+2022-08-19 10:53:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_- Invelli Microfinance System/span_Root' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[2]'.
+
+2022-08-19 10:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/span_Root' is hovered
+
+2022-08-19 10:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_- Invelli Microfinance System/a_Log Out")): Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:54:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Root'])[1]/following::a[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-08-19 10:54:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_- Invelli Microfinance System/a_Log Out'. Try using Self-healing.
+
+2022-08-19 10:54:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::a[3]'.
+
+2022-08-19 10:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_- Invelli Microfinance System/a_Log Out' is clicked on
+
+2022-08-19 10:54:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-19 10:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-19 10:51:26 - [TEST_SUITE][PASSED] - TS_Login_Success_ByTDLogin: Test Cases/TC_Login_Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
